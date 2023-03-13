@@ -31,7 +31,7 @@
   height: 300px;
   bottom: 0;
   right: 434px;
-  bottom: 24px;
+  bottom: 26px;
   clip-path: circle(42.1% at 50% 50%);
 }
 #left2Cut {
@@ -112,4 +112,35 @@
   bottom: 142px;
   left: 287px;
   clip-path: circle(42.1% at 50% 50%);
+}
+
+#cover1 {
+  position: absolute;
+  background-color: #191919;
+  width: 100px;
+  height: 100px;
+  right: 429px;
+  top: 220px;
+  bottom: 217px;
+  left: 502px;
+}
+#cover2 {
+  position: absolute;
+  background-color: #191919;
+  width: 100px;
+  height: 100px;
+  right: 429px;
+  top: 220px;
+  bottom: 217px;
+  left: -22px;
+}
+#cover3 {
+  position: absolute;
+  background-color: #191919;
+  width: 100px;
+  height: 100px;
+  right: 429px;
+  top: -23px;
+  bottom: 230px;
+  left: 538px;
 }
