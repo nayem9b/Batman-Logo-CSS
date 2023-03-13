@@ -1,0 +1,25 @@
+.project {
+  color: red;
+}
+
+#flagbody {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+  height: 500px;
+  width: 800px;
+}
+
+#innerlogo {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+  background-color: #ebaa53;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
