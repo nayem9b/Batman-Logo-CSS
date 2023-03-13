@@ -9,7 +9,7 @@
   align-items: center;
   background-color: #191919;
   height: 500px;
-  width: 800px;
+  width: 900px;
 }
 
 #innerlogo {
@@ -17,9 +17,20 @@
   align-items: center;
   place-items: center;
   justify-content: center;
+  position: relative;
   background-color: #ebaa53;
   width: 600px;
   height: 300px;
   display: flex;
-  justify-content: center;
+}
+
+#left1Cut {
+  position: absolute;
+  background-color: #191919;
+  width: 300px;
+  height: 300px;
+  bottom: 0;
+  right: 434px;
+  bottom: 24px;
+  clip-path: circle(42.1% at 50% 50%);
 }
